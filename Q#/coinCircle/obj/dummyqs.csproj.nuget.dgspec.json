@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj": {}
+    "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj": {}
   },
   "projects": {
-    "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj": {
+    "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+        "projectUniqueName": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
         "projectName": "dummyqs",
-        "projectPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+        "projectPath": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
         "packagesPath": "C:\\Users\\Foster\\.nuget\\packages\\",
-        "outputPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\obj\\",
+        "outputPath": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Foster\\AppData\\Roaming\\NuGet\\NuGet.Config",
