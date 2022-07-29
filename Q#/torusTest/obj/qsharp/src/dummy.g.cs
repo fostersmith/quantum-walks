@@ -14,30 +14,26 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Mutation\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"stateX\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"stateY\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":52},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Mutation\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for DummyQS.Increment\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for DummyQS.Increment\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for DummyQS.Increment\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for DummyQS.Decrement\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for DummyQS.Decrement\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for DummyQS.Decrement\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Flip\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":16},\"Item2\":{\"Line\":1,\"Column\":20}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Qubit\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Flip\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"length\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"height\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"iterations\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":48},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"LeftShifts\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"shifts\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":36}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"LeftShifts\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":74,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"RightShifts\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":87,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"shifts\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":37}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"RightShifts\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs\",\"Position\":{\"Item1\":87,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Mutation\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"stateX\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"stateY\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":52},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Mutation\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for DummyQS.Increment\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for DummyQS.Increment\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":20,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for DummyQS.Increment\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for DummyQS.Decrement\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for DummyQS.Decrement\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for DummyQS.Decrement\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"Flip\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":16},\"Item2\":{\"Line\":1,\"Column\":20}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Qubit\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"Flip\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":31,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"DummyQS\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"length\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":28}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"height\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"iterations\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":48},\"Item2\":{\"Line\":1,\"Column\":58}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"DummyQS\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"SourceFile\":\"/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
 #line hidden
 namespace DummyQS
 {
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 9, 21)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Body, 9, 21)]
     public partial class Mutation : Operation<(IQArray<Qubit>,IQArray<Qubit>,IQArray<Qubit>), QVoid>, ICallable
     {
         public Mutation(IOperationFactory m) : base(m)
@@ -94,23 +90,23 @@ namespace DummyQS
         public override Func<(IQArray<Qubit>,IQArray<Qubit>,IQArray<Qubit>), QVoid> __Body__ => (__in__) =>
         {
             var (coin,stateX,stateY) = __in__;
-#line 10 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 10 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Canon__ApplyToEach.Apply((Flip__, coin));
-#line 11 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 11 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Controlled.Apply((coin, stateX));
-#line 12 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 12 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Apply(coin[0L]);
-#line 13 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 13 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Decrement__.Controlled.Apply((coin, stateX));
-#line 14 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 14 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Apply(coin[1L]);
-#line 15 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 15 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Controlled.Apply((coin, stateY));
-#line 16 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 16 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Apply(coin[0L]);
-#line 17 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 17 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Decrement__.Controlled.Apply((coin, stateY));
-#line 18 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 18 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Apply(coin[1L]);
 #line hidden
             return QVoid.Instance;
@@ -134,10 +130,10 @@ namespace DummyQS
         }
     }
 
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 21, 28)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Adjoint, 21, 28)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Controlled, 21, 28)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.ControlledAdjoint, 21, 28)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Body, 21, 28)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Adjoint, 21, 28)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Controlled, 21, 28)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.ControlledAdjoint, 21, 28)]
     public partial class Increment : Unitary<IQArray<Qubit>>, ICallable
     {
         public Increment(IOperationFactory m) : base(m)
@@ -167,15 +163,15 @@ namespace DummyQS
         public override Func<IQArray<Qubit>, QVoid> __Body__ => (__in__) =>
         {
             var register = __in__;
-#line 22 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 22 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
 #line hidden
             {
-#line 23 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 23 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                 Microsoft__Quantum__Intrinsic__X.Controlled.Apply((register.Slice(new QRange((i - 1L), -(1L), 0L)), register[i]));
             }
 
-#line 25 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 25 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Apply(register[0L]);
 #line hidden
             return QVoid.Instance;
@@ -185,13 +181,13 @@ namespace DummyQS
         public override Func<IQArray<Qubit>, QVoid> __AdjointBody__ => (__in__) =>
         {
             var register = __in__;
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(register[0L]);
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             foreach (var __qsVar0__i__ in RangeReverse__.Apply(new QRange((register.Length - 1L), -(1L), 1L)))
 #line hidden
             {
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                 Microsoft__Quantum__Intrinsic__X.Controlled.Adjoint.Apply((register.Slice(new QRange((__qsVar0__i__ - 1L), -(1L), 0L)), register[__qsVar0__i__]));
             }
 
@@ -203,15 +199,15 @@ namespace DummyQS
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
 #line hidden
             {
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                 Microsoft__Quantum__Intrinsic__X.Controlled.Controlled.Apply((__controlQubits__, (register.Slice(new QRange((i - 1L), -(1L), 0L)), register[i])));
             }
 
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Controlled.Apply((__controlQubits__, register[0L]));
 #line hidden
             return QVoid.Instance;
@@ -221,13 +217,13 @@ namespace DummyQS
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledAdjointBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Adjoint.Controlled.Apply((__controlQubits__, register[0L]));
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             foreach (var __qsVar0__i__ in RangeReverse__.Apply(new QRange((register.Length - 1L), -(1L), 1L)))
 #line hidden
             {
-#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 21 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                 Microsoft__Quantum__Intrinsic__X.Controlled.Adjoint.Controlled.Apply((__controlQubits__, (register.Slice(new QRange((__qsVar0__i__ - 1L), -(1L), 0L)), register[__qsVar0__i__])));
             }
 
@@ -251,10 +247,10 @@ namespace DummyQS
         }
     }
 
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 28, 32)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Adjoint, 28, 32)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Controlled, 28, 32)]
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.ControlledAdjoint, 28, 32)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Body, 28, 32)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Adjoint, 28, 32)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Controlled, 28, 32)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.ControlledAdjoint, 28, 32)]
     public partial class Decrement : Unitary<IQArray<Qubit>>, ICallable
     {
         public Decrement(IOperationFactory m) : base(m)
@@ -272,7 +268,7 @@ namespace DummyQS
         public override Func<IQArray<Qubit>, QVoid> __Body__ => (__in__) =>
         {
             var register = __in__;
-#line 29 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 29 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Adjoint.Apply(register);
 #line hidden
             return QVoid.Instance;
@@ -282,7 +278,7 @@ namespace DummyQS
         public override Func<IQArray<Qubit>, QVoid> __AdjointBody__ => (__in__) =>
         {
             var register = __in__;
-#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Adjoint.Adjoint.Apply(register);
 #line hidden
             return QVoid.Instance;
@@ -292,7 +288,7 @@ namespace DummyQS
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
-#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Adjoint.Controlled.Apply((__controlQubits__, register));
 #line hidden
             return QVoid.Instance;
@@ -302,7 +298,7 @@ namespace DummyQS
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledAdjointBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
-#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 28 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Increment__.Adjoint.Adjoint.Controlled.Apply((__controlQubits__, register));
 #line hidden
             return QVoid.Instance;
@@ -322,7 +318,7 @@ namespace DummyQS
         }
     }
 
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 32, 36)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Body, 32, 36)]
     public partial class Flip : Operation<Qubit, QVoid>, ICallable
     {
         public Flip(IOperationFactory m) : base(m)
@@ -340,7 +336,7 @@ namespace DummyQS
         public override Func<Qubit, QVoid> __Body__ => (__in__) =>
         {
             var coin = __in__;
-#line 33 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 33 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
             Microsoft__Quantum__Intrinsic__H.Apply(coin);
 #line hidden
             return QVoid.Instance;
@@ -360,7 +356,7 @@ namespace DummyQS
         }
     }
 
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 36, 75)]
+    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs", OperationFunctor.Body, 36, -1)]
     public partial class LoopedWalk : Operation<(Int64,Int64,Int64), IQArray<Int64>>, ICallable
     {
         public LoopedWalk(IOperationFactory m) : base(m)
@@ -431,7 +427,7 @@ namespace DummyQS
             var (length,height,iterations) = __in__;
 #line hidden
             {
-#line 41 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 41 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                 var stateX = Allocate__.Apply(length);
 #line hidden
                 bool __arg1__ = true;
@@ -439,7 +435,7 @@ namespace DummyQS
                 {
 #line hidden
                     {
-#line 42 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 42 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                         var stateY = Allocate__.Apply(height);
 #line hidden
                         bool __arg2__ = true;
@@ -447,47 +443,47 @@ namespace DummyQS
                         {
 #line hidden
                             {
-#line 45 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 45 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                 var fourWayCoin = Allocate__.Apply(2L);
 #line hidden
                                 bool __arg3__ = true;
                                 try
                                 {
-#line 47 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 47 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, fourWayCoin));
-#line 48 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 48 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__S, fourWayCoin));
-#line 51 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 51 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     foreach (var i in new QRange(1L, iterations))
 #line hidden
                                     {
-#line 52 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 52 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                         Mutation__.Apply((fourWayCoin, stateX, stateY));
                                     }
 
-#line 55 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 55 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     ResetAll__.Apply(fourWayCoin);
-#line 58 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 58 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     var resultX = 0L;
-#line 59 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                                    foreach (var i in new QRange(0L, (length - 1L)))
+#line 59 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
+                                    foreach (var i in new QRange((length - 1L), -(1L), 0L))
 #line hidden
                                     {
-#line 60 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                                        resultX = (resultX + 2L.Pow(((Microsoft__Quantum__Intrinsic__M.Apply(stateX[i]) == Result.One) ? 1L : 0L)));
+#line 60 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
+                                        resultX = (resultX + (2L.Pow(i) * ((Microsoft__Quantum__Intrinsic__M.Apply(stateX[i]) == Result.One) ? 1L : 0L)));
                                     }
 
-#line 64 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 64 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     var resultY = 0L;
-#line 65 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                                    foreach (var i in new QRange(0L, (height - 1L)))
+#line 65 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
+                                    foreach (var i in new QRange((height - 1L), -(1L), 0L))
 #line hidden
                                     {
-#line 66 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                                        resultY = (resultY + 2L.Pow(((Microsoft__Quantum__Intrinsic__M.Apply(stateY[i]) == Result.One) ? 1L : 0L)));
+#line 66 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
+                                        resultY = (resultY + (2L.Pow(i) * ((Microsoft__Quantum__Intrinsic__M.Apply(stateY[i]) == Result.One) ? 1L : 0L)));
                                     }
 
-#line 69 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+#line 69 "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
                                     return new QArray<Int64>(resultX, resultY);
                                 }
 #line hidden
@@ -560,238 +556,6 @@ namespace DummyQS
         public static System.Threading.Tasks.Task<IQArray<Int64>> Run(IOperationFactory __m__, Int64 length, Int64 height, Int64 iterations)
         {
             return __m__.Run<LoopedWalk, (Int64,Int64,Int64), IQArray<Int64>>((length, height, iterations));
-        }
-    }
-
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 75, 88)]
-    public partial class LeftShifts : Operation<(Int64,Int64), Int64>, ICallable
-    {
-        public LeftShifts(IOperationFactory m) : base(m)
-        {
-        }
-
-        public class In : QTuple<(Int64,Int64)>, IApplyData
-        {
-            public In((Int64,Int64) data) : base(data)
-            {
-            }
-
-            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
-        }
-
-        String ICallable.Name => "LeftShifts";
-        String ICallable.FullName => "DummyQS.LeftShifts";
-        protected Allocate Allocate__
-        {
-            get;
-            set;
-        }
-
-        protected Release Release__
-        {
-            get;
-            set;
-        }
-
-        protected IUnitary<IQArray<Qubit>> Increment__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<Qubit, Result> Microsoft__Quantum__Intrinsic__M
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
-        {
-            get;
-            set;
-        }
-
-        public override Func<(Int64,Int64), Int64> __Body__ => (__in__) =>
-        {
-            var (N,shifts) = __in__;
-#line hidden
-            {
-#line 76 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                var state = Allocate__.Apply(N);
-#line hidden
-                bool __arg1__ = true;
-                try
-                {
-#line 77 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    foreach (var i in new QRange(1L, shifts))
-#line hidden
-                    {
-#line 78 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                        Increment__.Adjoint.Apply(state);
-                    }
-
-#line 81 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    var resultArray = new QArray<Result>();
-#line 82 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    foreach (var qubit in state)
-#line hidden
-                    {
-#line 83 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                        resultArray = QArray<Result>.Add(resultArray, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(qubit)));
-                    }
-
-#line 85 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    return Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(resultArray?.Copy());
-                }
-#line hidden
-                catch
-                {
-                    __arg1__ = false;
-                    throw;
-                }
-#line hidden
-                finally
-                {
-                    if (__arg1__)
-                    {
-#line hidden
-                        Release__.Apply(state);
-                    }
-                }
-            }
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
-            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
-            this.Increment__ = this.__Factory__.Get<IUnitary<IQArray<Qubit>>>(typeof(Increment));
-            this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
-            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
-        }
-
-        public override IApplyData __DataIn__((Int64,Int64) data) => new In(data);
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 N, Int64 shifts)
-        {
-            return __m__.Run<LeftShifts, (Int64,Int64), Int64>((N, shifts));
-        }
-    }
-
-    [SourceLocation("/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs", OperationFunctor.Body, 88, -1)]
-    public partial class RightShifts : Operation<(Int64,Int64), Int64>, ICallable
-    {
-        public RightShifts(IOperationFactory m) : base(m)
-        {
-        }
-
-        public class In : QTuple<(Int64,Int64)>, IApplyData
-        {
-            public In((Int64,Int64) data) : base(data)
-            {
-            }
-
-            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
-        }
-
-        String ICallable.Name => "RightShifts";
-        String ICallable.FullName => "DummyQS.RightShifts";
-        protected Allocate Allocate__
-        {
-            get;
-            set;
-        }
-
-        protected Release Release__
-        {
-            get;
-            set;
-        }
-
-        protected IUnitary<IQArray<Qubit>> Increment__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<Qubit, Result> Microsoft__Quantum__Intrinsic__M
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
-        {
-            get;
-            set;
-        }
-
-        public override Func<(Int64,Int64), Int64> __Body__ => (__in__) =>
-        {
-            var (N,shifts) = __in__;
-#line hidden
-            {
-#line 89 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                var state = Allocate__.Apply(N);
-#line hidden
-                bool __arg1__ = true;
-                try
-                {
-#line 90 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    foreach (var i in new QRange(1L, shifts))
-#line hidden
-                    {
-#line 91 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                        Increment__.Apply(state);
-                    }
-
-#line 94 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    var resultArray = new QArray<Result>();
-#line 95 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    foreach (var qubit in state)
-#line hidden
-                    {
-#line 96 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                        resultArray = QArray<Result>.Add(resultArray, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(qubit)));
-                    }
-
-#line 98 "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
-                    return Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(resultArray?.Copy());
-                }
-#line hidden
-                catch
-                {
-                    __arg1__ = false;
-                    throw;
-                }
-#line hidden
-                finally
-                {
-                    if (__arg1__)
-                    {
-#line hidden
-                        Release__.Apply(state);
-                    }
-                }
-            }
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
-            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
-            this.Increment__ = this.__Factory__.Get<IUnitary<IQArray<Qubit>>>(typeof(Increment));
-            this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
-            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
-        }
-
-        public override IApplyData __DataIn__((Int64,Int64) data) => new In(data);
-        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
-        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 N, Int64 shifts)
-        {
-            return __m__.Run<RightShifts, (Int64,Int64), Int64>((N, shifts));
         }
     }
 }

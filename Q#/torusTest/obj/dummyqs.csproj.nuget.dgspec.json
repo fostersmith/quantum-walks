@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs.csproj": {}
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs.csproj": {}
   },
   "projects": {
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs.csproj": {
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs.csproj",
+        "projectUniqueName": "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs.csproj",
         "projectName": "dummyqs",
-        "projectPath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs.csproj",
+        "projectPath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs.csproj",
         "packagesPath": "/Users/2019omatheson/.nuget/packages/",
-        "outputPath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/obj/",
+        "outputPath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/2019omatheson/.nuget/NuGet/NuGet.Config"

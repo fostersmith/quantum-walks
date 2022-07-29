@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmpyRCQdXCV0ZvBzBDM21049ZuOZerdYE7xaDIpMTN6sF5t34Y4YaQKdk+y4QzMAn50T2uI0CLo3D+wV0oN72g==",
+  "dgSpecHash": "zv1KcMWQT0jqYEgU24xlpmOP0FskHLn7rQ/zsy2YcSvqok9zubiBL0/a02Kyi1yJDWhb4QqUbbH8aVLN4Fh7vg==",
   "success": true,
-  "projectFilePath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs.csproj",
+  "projectFilePath": "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs.csproj",
   "expectedPackageFiles": [
     "/Users/2019omatheson/.nuget/packages/azure.core/1.22.0/azure.core.1.22.0.nupkg.sha512",
     "/Users/2019omatheson/.nuget/packages/azure.identity/1.5.0/azure.identity.1.5.0.nupkg.sha512",

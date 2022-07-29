@@ -1,10 +1,10 @@
 --proj
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummyqs"
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummyqs"
 --build-exe
 --input
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/dummy.qs"
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/dummy.qs"
 --output
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/obj/qsharp/"
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/obj/qsharp/"
 --references
     "/Users/2019omatheson/.nuget/packages/azure.core/1.22.0/lib/net5.0/Azure.Core.dll"
     "/Users/2019omatheson/.nuget/packages/azure.identity/1.5.0/lib/netstandard2.0/Azure.Identity.dll"
@@ -42,7 +42,7 @@
     FullComputation
 --skip-monomorphization
 --package-load-fallback-folders
-    "/Users/2019omatheson/Documents/GitHub/quantum-walks/torusTest/bin/Debug/net6.0/"
+    "/Users/2019omatheson/Documents/GitHub/quantum-walks/Q#/torusTest/bin/Debug/net6.0/"
 --assembly-properties
     DocsPackageId:dummyqs
     ExecutionTarget:Any

@@ -56,46 +56,16 @@ namespace DummyQS{
 
         //X-coordinate
         mutable resultX = 0;
-        for i in 0..length-1{
-            set resultX += 2 ^ (M(stateX[i]) == One ? 1 | 0);
+        for i in length-1 .. -1 .. 0{
+            set resultX += 2^i * (M(stateX[i]) == One ? 1 | 0);
         }
 
         //Y-coordinate
         mutable resultY = 0;
-        for i in 0..height-1{
-            set resultY += 2 ^ (M(stateY[i]) == One ? 1 | 0);
+        for i in height-1 .. -1 .. 0{
+            set resultY += 2^i * (M(stateY[i]) == One ? 1 | 0);
         }
 
         return [resultX, resultY];
     }
-
-
-
-    //tests
-    operation LeftShifts(N: Int, shifts: Int) : Int {
-        use state = Qubit[N];
-        for i in 1..shifts{
-            Adjoint Increment(state);
-        }
-        
-        mutable resultArray = [];
-        for qubit in state{
-            set resultArray += [M(qubit)];
-        }
-        return ResultArrayAsInt(resultArray);
-    }
-
-    operation RightShifts(N: Int, shifts: Int) : Int {
-        use state = Qubit[N];
-        for i in 1..shifts{
-            Increment(state);
-        }
-        
-        mutable resultArray = [];
-        for qubit in state{
-            set resultArray += [M(qubit)];
-        }
-        return ResultArrayAsInt(resultArray);
-    }
-
 }
