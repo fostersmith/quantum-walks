@@ -7129,11 +7129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\BWSI\\quantum-walks\\circleTest\\dummyqs.csproj",
+      "projectUniqueName": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
       "projectName": "dummyqs",
-      "projectPath": "d:\\BWSI\\quantum-walks\\circleTest\\dummyqs.csproj",
+      "projectPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
       "packagesPath": "C:\\Users\\Foster\\.nuget\\packages\\",
-      "outputPath": "d:\\BWSI\\quantum-walks\\circleTest\\obj\\",
+      "outputPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Foster\\AppData\\Roaming\\NuGet\\NuGet.Config",

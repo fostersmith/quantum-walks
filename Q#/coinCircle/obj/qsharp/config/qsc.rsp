@@ -1,10 +1,10 @@
 --proj
-    "D:\BWSI\quantum-walks\fostersDummyQ#\dummyqs"
+    "D:\BWSI\quantum-walks\Q#\QuantumWalks\circleTest\dummyqs"
 --build-exe
 --input
-    "D:\BWSI\quantum-walks\fostersDummyQ#\dummy.qs"
+    "D:\BWSI\quantum-walks\Q#\QuantumWalks\circleTest\dummy.qs"
 --output
-    "D:/BWSI/quantum-walks/fostersDummyQ#/obj/qsharp/"
+    "D:/BWSI/quantum-walks/Q#/QuantumWalks/circleTest/obj/qsharp/"
 --references
     "C:\Users\Foster\.nuget\packages\azure.core\1.22.0\lib\net5.0\Azure.Core.dll"
     "C:\Users\Foster\.nuget\packages\azure.identity\1.5.0\lib\netstandard2.0\Azure.Identity.dll"
@@ -42,7 +42,7 @@
     FullComputation
 --skip-monomorphization
 --package-load-fallback-folders
-    "D:/BWSI/quantum-walks/fostersDummyQ#/bin/Debug/net6.0/"
+    "D:/BWSI/quantum-walks/Q#/QuantumWalks/circleTest/bin/Debug/net6.0/"
 --assembly-properties
     DocsPackageId:dummyqs
     ExecutionTarget:Any

@@ -1,4 +1,4 @@
-namespace DummyQS{
+namespace CircleTest{
 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Convert;
@@ -6,23 +6,23 @@ namespace DummyQS{
     open Microsoft.Quantum.Math;
     open Microsoft.Quantum.Measurement;
 
-    operation Mutation(coin: Qubit, state: Qubit[]) : Unit{
+    operation Mutation(coin: Qubit, state: Qubit[]) : Unit { // Take a step based on coin
         Flip(coin);
-        Controlled Increment([coin], state);
+        Controlled Increment([coin], state); // Walker steps forward on heads
         X(coin);
-        Controlled Decrement([coin], state);
+        Controlled Decrement([coin], state); // Walker steps backward on tails
         X(coin);
 
     }
 
-    operation Increment(register: Qubit[]) : Unit is Adj + Ctl {
+    operation Increment(register: Qubit[]) : Unit is Adj + Ctl { // Add 1 -> Walker steps forward
         for i in Length(register)-1.. -1 .. 1 { //MSD -> LSD
             Controlled X(register[i-1.. -1 .. 0], register[i]);
         }
         X(register[0]);
     }
 
-    operation Decrement(register: Qubit[]) : Unit is Adj + Ctl{
+    operation Decrement(register: Qubit[]) : Unit is Adj + Ctl{ // Subtract 1 -> Walker steps backward
         Adjoint Increment(register);
     }
 
@@ -30,14 +30,17 @@ namespace DummyQS{
         H(coin);
     }
 
-    operation LoopedWalk(N: Int, iterations: Int) : Int {
-        use state = Qubit[N];
-        use coin = Qubit();
+    operation LoopedWalk(N: Int, iterations: Int) : Int { // Do the walk
+        use state = Qubit[N];   // Walker's position
+        use coin = Qubit();     // Random component
         H(coin);
-        S(coin);
-        for i in 1..iterations{
+        S(coin);                // coin -> |i>
+
+        for i in 1..iterations{ // Take {iterations} random steps
             Mutation(coin, state);
         }
+
+        // Measure superposition
         mutable resultArray = [];
         for qubit in state{
             set resultArray += [M(qubit)];

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s30NlRuAd4NGyrLJiCrSZwLhhgcUPBCZMo5ZgXTbxpngrT2Xo7ZxRCUBch7vQZknH3BcJSwacQC1clLZ2jHdPQ==",
+  "dgSpecHash": "FpyzLzIDHkuXcnp67fZo0ca8wUzo3QiIwWNFAVFqNVqBkeONv4YgmJKm2OLfO5xw2hyRfIVPwDt4+cIJzz/CZw==",
   "success": true,
-  "projectFilePath": "d:\\BWSI\\quantum-walks\\circleTest\\dummyqs.csproj",
+  "projectFilePath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Foster\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Foster\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",
