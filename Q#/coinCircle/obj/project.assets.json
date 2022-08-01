@@ -7129,11 +7129,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
       "projectName": "dummyqs",
       "projectPath": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
       "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\obj\\",
+=======
+      "projectUniqueName": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+      "projectName": "dummyqs",
+      "projectPath": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+      "packagesPath": "C:\\Users\\Foster\\.nuget\\packages\\",
+      "outputPath": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\obj\\",
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config"

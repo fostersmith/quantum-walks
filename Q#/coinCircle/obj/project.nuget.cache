@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "MkHwwGZSk1GMEQMF+/RBaDH6TZYk7YLWzFNNWDArTnM1gmSrLq6DOnz+ARm+stzTDaDyk0joc/hlf+uqJ89i2Q==",
   "success": true,
   "projectFilePath": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+=======
+  "dgSpecHash": "39KIqFJxleQiy0TsfVJNBBE4SBfSTMnYAPqVyCcPF6QFhIOgvF+M73K3PoWCvOY5YAFajQdHSvfwKUkCVlV2Rw==",
+  "success": true,
+  "projectFilePath": "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
   "expectedPackageFiles": [
     "C:\\Users\\dodge\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\dodge\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

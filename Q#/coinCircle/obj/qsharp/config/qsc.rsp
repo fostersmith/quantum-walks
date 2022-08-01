@@ -1,10 +1,19 @@
 --proj
+<<<<<<< HEAD
     "C:\Users\dodge\Documents\quantum-walks\Q#\coinCircle\dummyqs"
 --build-exe
 --input
     "C:\Users\dodge\Documents\quantum-walks\Q#\coinCircle\dummy.qs"
 --output
     "C:/Users/dodge/Documents/quantum-walks/Q#/coinCircle/obj/qsharp/"
+=======
+    "D:\BWSI\quantum-walks\Q#\coinCircle\dummyqs"
+--build-exe
+--input
+    "D:\BWSI\quantum-walks\Q#\coinCircle\dummy.qs"
+--output
+    "D:/BWSI/quantum-walks/Q#/coinCircle/obj/qsharp/"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
 --references
     "C:\Users\dodge\.nuget\packages\azure.core\1.22.0\lib\net5.0\Azure.Core.dll"
     "C:\Users\dodge\.nuget\packages\azure.identity\1.5.0\lib\netstandard2.0\Azure.Identity.dll"
@@ -42,7 +51,11 @@
     FullComputation
 --skip-monomorphization
 --package-load-fallback-folders
+<<<<<<< HEAD
     "C:/Users/dodge/Documents/quantum-walks/Q#/coinCircle/bin/Debug/net6.0/"
+=======
+    "D:/BWSI/quantum-walks/Q#/coinCircle/bin/Debug/net6.0/"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
 --assembly-properties
     DocsPackageId:dummyqs
     ExecutionTarget:Any

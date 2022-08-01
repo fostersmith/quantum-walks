@@ -14,6 +14,7 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
+<<<<<<< HEAD
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Mutation\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\dodge\\\\Documents\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"state\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Mutation\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\dodge\\\\Documents\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\dodge\\\\Documents\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
@@ -38,6 +39,32 @@ using Microsoft.Quantum.Simulation.Core;
 namespace CircleTest
 {
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 9, 18)]
+=======
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Mutation\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":20},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"state\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Mutation\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for CircleTest.Increment\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for CircleTest.Increment\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Increment\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":17,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for CircleTest.Increment\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Decrement\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"register\"]},\"Type\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":29}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Qubit\"}]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsAdjoint specialization for CircleTest.Decrement\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlled specialization for CircleTest.Decrement\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Decrement\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":24,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":50},\"Item2\":{\"Line\":1,\"Column\":59}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for CircleTest.Decrement\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"Flip\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":28,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"coin\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":16},\"Item2\":{\"Line\":1,\"Column\":20}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Qubit\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"Flip\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":28,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":15}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":32,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"iterations\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"LoopedWalk\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":32,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"LeftShifts\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":23}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"shifts\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":30},\"Item2\":{\"Line\":1,\"Column\":36}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"LeftShifts\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"CircleTest\",\"Name\":\"RightShifts\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":65,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"N\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":23},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"shifts\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":31},\"Item2\":{\"Line\":1,\"Column\":37}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"CircleTest\",\"Name\":\"RightShifts\"},\"Attributes\":[],\"SourceFile\":\"D:\\\\BWSI\\\\quantum-walks\\\\Q#\\\\coinCircle\\\\dummy.qs\",\"Position\":{\"Item1\":65,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":22}},\"Documentation\":[]}")]
+#line hidden
+namespace CircleTest
+{
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 9, 18)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class Mutation : Operation<(Qubit,IQArray<Qubit>), QVoid>, ICallable
     {
         public Mutation(IOperationFactory m) : base(m)
@@ -61,7 +88,7 @@ namespace CircleTest
 
         String ICallable.Name => "Mutation";
         String ICallable.FullName => "CircleTest.Mutation";
-        protected ICallable<Qubit, QVoid> Flip__
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
         {
             get;
             set;
@@ -88,6 +115,7 @@ namespace CircleTest
         public override Func<(Qubit,IQArray<Qubit>), QVoid> __Body__ => (__in__) =>
         {
             var (coin,state) = __in__;
+<<<<<<< HEAD
 #line 10 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             Flip__.Apply(coin);
 #line 11 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
@@ -97,6 +125,17 @@ namespace CircleTest
 #line 13 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             Decrement__.Controlled.Apply((new QArray<Qubit>(coin), state));
 #line 14 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 10 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Microsoft__Quantum__Intrinsic__H.Apply(coin);
+#line 11 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Increment__.Controlled.Apply((new QArray<Qubit>(coin), state));
+#line 12 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Microsoft__Quantum__Intrinsic__X.Apply(coin);
+#line 13 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Decrement__.Controlled.Apply((new QArray<Qubit>(coin), state));
+#line 14 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Microsoft__Quantum__Intrinsic__X.Apply(coin);
 #line hidden
             return QVoid.Instance;
@@ -105,7 +144,7 @@ namespace CircleTest
         ;
         public override void __Init__()
         {
-            this.Flip__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(Flip));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
             this.Increment__ = this.__Factory__.Get<IUnitary<IQArray<Qubit>>>(typeof(Increment));
             this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
             this.Decrement__ = this.__Factory__.Get<IUnitary<IQArray<Qubit>>>(typeof(Decrement));
@@ -119,10 +158,17 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 18, 25)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Adjoint, 18, 25)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Controlled, 18, 25)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.ControlledAdjoint, 18, 25)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 18, 25)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Adjoint, 18, 25)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Controlled, 18, 25)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.ControlledAdjoint, 18, 25)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class Increment : Unitary<IQArray<Qubit>>, ICallable
     {
         public Increment(IOperationFactory m) : base(m)
@@ -152,6 +198,7 @@ namespace CircleTest
         public override Func<IQArray<Qubit>, QVoid> __Body__ => (__in__) =>
         {
             var register = __in__;
+<<<<<<< HEAD
 #line 19 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
 #line hidden
@@ -161,6 +208,17 @@ namespace CircleTest
             }
 
 #line 22 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 19 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
+#line hidden
+            {
+#line 20 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                Microsoft__Quantum__Intrinsic__X.Controlled.Apply((register.Slice(new QRange((i - 1L), -(1L), 0L)), register[i]));
+            }
+
+#line 22 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Microsoft__Quantum__Intrinsic__X.Apply(register[0L]);
 #line hidden
             return QVoid.Instance;
@@ -170,6 +228,7 @@ namespace CircleTest
         public override Func<IQArray<Qubit>, QVoid> __AdjointBody__ => (__in__) =>
         {
             var register = __in__;
+<<<<<<< HEAD
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(register[0L]);
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
@@ -177,6 +236,15 @@ namespace CircleTest
 #line hidden
             {
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(register[0L]);
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            foreach (var __qsVar0__i__ in RangeReverse__.Apply(new QRange((register.Length - 1L), -(1L), 1L)))
+#line hidden
+            {
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                 Microsoft__Quantum__Intrinsic__X.Controlled.Adjoint.Apply((register.Slice(new QRange((__qsVar0__i__ - 1L), -(1L), 0L)), register[__qsVar0__i__]));
             }
 
@@ -188,6 +256,7 @@ namespace CircleTest
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
+<<<<<<< HEAD
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
 #line hidden
@@ -197,6 +266,17 @@ namespace CircleTest
             }
 
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            foreach (var i in new QRange((register.Length - 1L), -(1L), 1L))
+#line hidden
+            {
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                Microsoft__Quantum__Intrinsic__X.Controlled.Controlled.Apply((__controlQubits__, (register.Slice(new QRange((i - 1L), -(1L), 0L)), register[i])));
+            }
+
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Microsoft__Quantum__Intrinsic__X.Controlled.Apply((__controlQubits__, register[0L]));
 #line hidden
             return QVoid.Instance;
@@ -206,6 +286,7 @@ namespace CircleTest
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledAdjointBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
+<<<<<<< HEAD
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
             Microsoft__Quantum__Intrinsic__X.Adjoint.Controlled.Apply((__controlQubits__, register[0L]));
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
@@ -213,6 +294,15 @@ namespace CircleTest
 #line hidden
             {
 #line 18 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            Microsoft__Quantum__Intrinsic__X.Adjoint.Controlled.Apply((__controlQubits__, register[0L]));
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+            foreach (var __qsVar0__i__ in RangeReverse__.Apply(new QRange((register.Length - 1L), -(1L), 1L)))
+#line hidden
+            {
+#line 18 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                 Microsoft__Quantum__Intrinsic__X.Controlled.Adjoint.Controlled.Apply((__controlQubits__, (register.Slice(new QRange((__qsVar0__i__ - 1L), -(1L), 0L)), register[__qsVar0__i__])));
             }
 
@@ -236,10 +326,17 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 25, 29)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Adjoint, 25, 29)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Controlled, 25, 29)]
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.ControlledAdjoint, 25, 29)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 25, 29)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Adjoint, 25, 29)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Controlled, 25, 29)]
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.ControlledAdjoint, 25, 29)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class Decrement : Unitary<IQArray<Qubit>>, ICallable
     {
         public Decrement(IOperationFactory m) : base(m)
@@ -257,7 +354,11 @@ namespace CircleTest
         public override Func<IQArray<Qubit>, QVoid> __Body__ => (__in__) =>
         {
             var register = __in__;
+<<<<<<< HEAD
 #line 26 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 26 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Increment__.Adjoint.Apply(register);
 #line hidden
             return QVoid.Instance;
@@ -267,7 +368,11 @@ namespace CircleTest
         public override Func<IQArray<Qubit>, QVoid> __AdjointBody__ => (__in__) =>
         {
             var register = __in__;
+<<<<<<< HEAD
 #line 25 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 25 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Increment__.Adjoint.Adjoint.Apply(register);
 #line hidden
             return QVoid.Instance;
@@ -277,7 +382,11 @@ namespace CircleTest
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
+<<<<<<< HEAD
 #line 25 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 25 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Increment__.Adjoint.Controlled.Apply((__controlQubits__, register));
 #line hidden
             return QVoid.Instance;
@@ -287,7 +396,11 @@ namespace CircleTest
         public override Func<(IQArray<Qubit>,IQArray<Qubit>), QVoid> __ControlledAdjointBody__ => (__in__) =>
         {
             var (__controlQubits__,register) = __in__;
+<<<<<<< HEAD
 #line 25 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 25 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Increment__.Adjoint.Adjoint.Controlled.Apply((__controlQubits__, register));
 #line hidden
             return QVoid.Instance;
@@ -307,7 +420,11 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 29, 33)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 29, 33)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class Flip : Operation<Qubit, QVoid>, ICallable
     {
         public Flip(IOperationFactory m) : base(m)
@@ -325,7 +442,11 @@ namespace CircleTest
         public override Func<Qubit, QVoid> __Body__ => (__in__) =>
         {
             var coin = __in__;
+<<<<<<< HEAD
 #line 30 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 30 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
             Microsoft__Quantum__Intrinsic__H.Apply(coin);
 #line hidden
             return QVoid.Instance;
@@ -345,7 +466,11 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 33, 53)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 33, 53)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class LoopedWalk : Operation<(Int64,Int64), Int64>, ICallable
     {
         public LoopedWalk(IOperationFactory m) : base(m)
@@ -375,7 +500,13 @@ namespace CircleTest
             set;
         }
 
-        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        protected IUnitary<(Double,Qubit)> Microsoft__Quantum__Intrinsic__Rx
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<QVoid, Double> Microsoft__Quantum__Math__PI
         {
             get;
             set;
@@ -416,7 +547,11 @@ namespace CircleTest
             var (N,iterations) = __in__;
 #line hidden
             {
+<<<<<<< HEAD
 #line 34 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 34 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                 var state = Allocate__.Apply(N);
 #line hidden
                 bool __arg1__ = true;
@@ -424,12 +559,17 @@ namespace CircleTest
                 {
 #line hidden
                     {
+<<<<<<< HEAD
 #line 35 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 35 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                         var coin = Allocate__.Apply();
 #line hidden
                         bool __arg2__ = true;
                         try
                         {
+<<<<<<< HEAD
 #line 36 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
                             Microsoft__Quantum__Intrinsic__H.Apply(coin);
 #line 37 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
@@ -455,6 +595,33 @@ namespace CircleTest
 #line 48 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
                             Reset__.Apply(coin);
 #line 49 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 36 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            Microsoft__Quantum__Intrinsic__Rx.Apply(((Microsoft__Quantum__Math__PI.Apply(QVoid.Instance) / 4D), coin));
+#line 37 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            Microsoft__Quantum__Intrinsic__S.Apply(coin);
+#line 39 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            foreach (var i in new QRange(1L, iterations))
+#line hidden
+                            {
+#line 40 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                                Mutation__.Apply((coin, state));
+                            }
+
+#line 44 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            var resultArray = new QArray<Result>();
+#line 45 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            foreach (var qubit in state)
+#line hidden
+                            {
+#line 46 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                                resultArray = QArray<Result>.Add(resultArray, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(qubit)));
+                            }
+
+#line 48 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                            Reset__.Apply(coin);
+#line 49 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                             return Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(resultArray?.Copy());
                         }
 #line hidden
@@ -497,7 +664,8 @@ namespace CircleTest
         {
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
-            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Intrinsic__Rx = this.__Factory__.Get<IUnitary<(Double,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.Rx));
+            this.Microsoft__Quantum__Math__PI = this.__Factory__.Get<ICallable<QVoid, Double>>(typeof(global::Microsoft.Quantum.Math.PI));
             this.Microsoft__Quantum__Intrinsic__S = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.S));
             this.Mutation__ = this.__Factory__.Get<ICallable<(Qubit,IQArray<Qubit>), QVoid>>(typeof(Mutation));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
@@ -513,7 +681,11 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 53, 66)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 53, 66)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class LeftShifts : Operation<(Int64,Int64), Int64>, ICallable
     {
         public LeftShifts(IOperationFactory m) : base(m)
@@ -566,12 +738,17 @@ namespace CircleTest
             var (N,shifts) = __in__;
 #line hidden
             {
+<<<<<<< HEAD
 #line 54 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 54 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                 var state = Allocate__.Apply(N);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
+<<<<<<< HEAD
 #line 55 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
                     foreach (var i in new QRange(1L, shifts))
 #line hidden
@@ -591,6 +768,27 @@ namespace CircleTest
                     }
 
 #line 63 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 55 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    foreach (var i in new QRange(1L, shifts))
+#line hidden
+                    {
+#line 56 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                        Increment__.Adjoint.Apply(state);
+                    }
+
+#line 59 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    var resultArray = new QArray<Result>();
+#line 60 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    foreach (var qubit in state)
+#line hidden
+                    {
+#line 61 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                        resultArray = QArray<Result>.Add(resultArray, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(qubit)));
+                    }
+
+#line 63 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                     return Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(resultArray?.Copy());
                 }
 #line hidden
@@ -629,7 +827,11 @@ namespace CircleTest
         }
     }
 
+<<<<<<< HEAD
     [SourceLocation("C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 66, -1)]
+=======
+    [SourceLocation("D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs", OperationFunctor.Body, 66, -1)]
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
     public partial class RightShifts : Operation<(Int64,Int64), Int64>, ICallable
     {
         public RightShifts(IOperationFactory m) : base(m)
@@ -682,12 +884,17 @@ namespace CircleTest
             var (N,shifts) = __in__;
 #line hidden
             {
+<<<<<<< HEAD
 #line 67 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 67 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                 var state = Allocate__.Apply(N);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
+<<<<<<< HEAD
 #line 68 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
                     foreach (var i in new QRange(1L, shifts))
 #line hidden
@@ -707,6 +914,27 @@ namespace CircleTest
                     }
 
 #line 76 "C:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+=======
+#line 68 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    foreach (var i in new QRange(1L, shifts))
+#line hidden
+                    {
+#line 69 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                        Increment__.Apply(state);
+                    }
+
+#line 72 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    var resultArray = new QArray<Result>();
+#line 73 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                    foreach (var qubit in state)
+#line hidden
+                    {
+#line 74 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+                        resultArray = QArray<Result>.Add(resultArray, new QArray<Result>(Microsoft__Quantum__Intrinsic__M.Apply(qubit)));
+                    }
+
+#line 76 "D:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummy.qs"
+>>>>>>> ef98a8a8d86d8cca4b2266e768942ea84b7d8eea
                     return Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(resultArray?.Copy());
                 }
 #line hidden

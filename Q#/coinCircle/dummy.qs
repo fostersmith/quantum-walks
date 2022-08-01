@@ -7,7 +7,7 @@ namespace CircleTest{
     open Microsoft.Quantum.Measurement;
 
     operation Mutation(coin: Qubit, state: Qubit[]) : Unit { // Take a step based on coin
-        Flip(coin);
+        H(coin);
         Controlled Increment([coin], state); // Walker steps forward on heads
         X(coin);
         Controlled Decrement([coin], state); // Walker steps backward on tails
@@ -33,7 +33,7 @@ namespace CircleTest{
     operation LoopedWalk(N: Int, iterations: Int) : Int { // Do the walk
         use state = Qubit[N];   // Walker's position
         use coin = Qubit();     // Random component
-        H(coin);
+        Rx(PI()/4.0, coin);//H(coin);
         S(coin);                // coin -> |i>
 
         for i in 1..iterations{ // Take {iterations} random steps
