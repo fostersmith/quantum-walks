@@ -1,65 +1,70 @@
-import qiskit
+import sys
+from time import perf_counter
+import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib as mpl
-from qiskit import Aer, QuantumCircuit, ClassicalRegister, QuantumRegister, execute
-from qiskit.tools.visualization import plot_histogram, plot_state_city
 
-# Changeable constants
-n = 3
-step = 3
+# importing QISKit
+from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister, transpile
+from qiskit import Aer, IBMQ, execute
 
-# Declaring registers
-qnodes = QuantumRegister(n,'quantum_walker')
-qsubnodes = QuantumRegister(1,'quantum_coin')
-csubnodes = ClassicalRegister(1,'classical_coin_register')
-cnodes = ClassicalRegister(n,'classical_walker_register')
+from qiskit.tools.monitor import job_monitor
+from qiskit.providers.ibmq import least_busy
+from qiskit.tools.visualization import plot_histogram
 
-circuit = QuantumCircuit(qnodes, qsubnodes, cnodes, csubnodes)
+my_provider = IBMQ.load_account()
+#sim_backend = Aer.get_backend('qasm_simulator')
+device_backend = my_provider.get_backend('ibm_oslo')
 
-# Applies a clockwise rotation around the graph
-def increment_gate(circuit, register, subnode):
-  
-  circuit.mct([subnode, register[2], register[1]], register[0])
-  circuit.mct([subnode, register[2]], register[1])
-  circuit.cx(subnode, register[2])
-  circuit.barrier()
-  return circuit
+t=8 #time
 
-# Applies a counterclockwise rotation around the graph
-def decrement_gate(circuit, register, subnode):
+q1 = QuantumRegister(4)
+c1 = ClassicalRegister(4)
+qw1 = QuantumCircuit(q1, c1)
 
-  circuit.x(subnode)
-  circuit.x(register[2])
-  circuit.x(register[1])
-  circuit.mct([subnode, register[2], register[1]], register[0])
-  circuit.x(register[1])
-  circuit.mct([subnode, register[2]], register[1])
-  circuit.x(register[2])
-  circuit.cx(subnode, register[2])
-  circuit.x(subnode)
-  return circuit
+start = perf_counter()
+qw1.x(q1[1])
+qw1.cx(q1[2], q1[1])
+qw1.u(t, 0, 0, q1[2])
+qw1.cx(q1[2], q1[0])
+qw1.u(t, 0, 0, q1[2])
+qw1.cx(q1[2], q1[0])
+qw1.cx(q1[2], q1[1])
+qw1.u(2*t, 0, 0, q1[2])
 
-# Runs circuit
-def ibmsim(circuit):
-  simulator = Aer.get_backend('aer_simulator')
-  return execute(circuit, simulator, shots=1000).result().get_counts(circuit)  
+qw1.measure(q1[0], c1[0])
+qw1.measure(q1[1], c1[1])
+qw1.measure(q1[2], c1[2])
+end = perf_counter()
 
-# Rerun the coin and shift operations for a number of steps
-def runQWC(circuit, times):
-    for i in range(times):
-        # Coin operation
-        circuit.h(qsubnodes[0])
-        # Shift operations
-        increment_gate(circuit, qnodes, qsubnodes[0])
-        decrement_gate(circuit,qnodes,qsubnodes[0])
-        circuit.measure(qnodes, cnodes)
+qw1 = transpile(qw1, backend=device_backend, optimization_level=3)
 
-    return circuit
 
-circuit = runQWC(circuit, step)
-circuit.draw(output="mpl")
-result = ibmsim(circuit)
+print(f"Circuit construction took {(end - start)} sec.")
 
-print(result)
+active_qubits = {}
+for op in qw1.data: 
+    if op[0].name != "barrier" and op[0].name != "snapshot": 
+        for qubit in op[1]: 
+            active_qubits[qubit.index] = True
+print(f"Width: {len(active_qubits)} qubits")
 
-plot_histogram(result)
+print(f"Depth: {qw1.depth()}")
+
+print(f"Gate counts: {qw1.count_ops()}")
+
+job = execute(qw1, device_backend, shots=1024)
+qw1.draw(output='mpl')
+job_monitor(job)
+
+result = job.result()
+
+histogram = {}
+
+for(measured_state, count) in result.get_counts().items():
+
+        big_endian_state = measured_state[::-1]
+        measured_state = big_endian_state
+
+        histogram.update({big_endian_state:count})
+
+plot_histogram(histogram)
