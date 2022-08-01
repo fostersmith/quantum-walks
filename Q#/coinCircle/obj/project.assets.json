@@ -7124,26 +7124,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Foster\\.nuget\\packages\\": {}
+    "C:\\Users\\dodge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+      "projectUniqueName": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
       "projectName": "dummyqs",
-      "projectPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
-      "packagesPath": "C:\\Users\\Foster\\.nuget\\packages\\",
-      "outputPath": "d:\\BWSI\\quantum-walks\\Q#\\coinCircle\\obj\\",
+      "projectPath": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\dummyqs.csproj",
+      "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\dodge\\Documents\\quantum-walks\\Q#\\coinCircle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Foster\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
