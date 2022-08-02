@@ -1,6 +1,6 @@
 # Quantum Walks
 
-# Introduction
+## Introduction
 Quantum Walks are a variation of classical random walks, representing movement around a graph or line using a uniformly-distributed quantum coin. 
 This is a topological implementation, representing movement around an octogon lattice. 
 While this is a somewhat theoretical implementation, quantum walks are exponentially faster than their classical counter parts, while still simulating everything that classical walks can: 
@@ -41,5 +41,5 @@ We would be remiss without giving some appreciation and recognition to all the p
   * **Diptanshu Sikdar**
   * **Dylan VanAllen**
 
-# Inspiration
+## Inspiration
 * [Physical realization of topological quantum walks on IBM-Q and beyond](https://arxiv.org/abs/1710.03615) by Radhakrishnan Balu, Daniel Castillo, and George Siopsis. 
