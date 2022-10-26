@@ -8,7 +8,7 @@ namespace DummyQS{
 
     //controlled increments and decrements entangle the coin with the board state
     //each flip's outcome impacts the future outcomes
-    //this is why the QW distribution differes from the CRW
+    //this is why the QW distribution differs from the CRW
     operation Mutation(coin: Qubit[], stateX: Qubit[], stateY: Qubit[]) : Unit{
         ApplyToEach(Flip, coin);
         Controlled Increment(coin, stateX); //left
