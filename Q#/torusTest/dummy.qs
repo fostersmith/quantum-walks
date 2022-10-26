@@ -6,6 +6,9 @@ namespace DummyQS{
     open Microsoft.Quantum.Math;
     open Microsoft.Quantum.Measurement;
 
+    //controlled increments and decrements entangle the coin with the board state
+    //each flip's outcome impacts the future outcomes
+    //this is why the QW distribution differes from the CRW
     operation Mutation(coin: Qubit[], stateX: Qubit[], stateY: Qubit[]) : Unit{
         ApplyToEach(Flip, coin);
         Controlled Increment(coin, stateX); //left
@@ -33,6 +36,8 @@ namespace DummyQS{
         H(coin);
     }
 
+    //length and height indicate the board's dimensions
+    //iterations indicates the number of steps the walker will take
     operation LoopedWalk(length: Int, height: Int, iterations: Int) : Int[] {
 
         //store coordinates in separate registers
@@ -44,10 +49,11 @@ namespace DummyQS{
         //we need two qubits for the coin because it needs to decide between four choices.
         use fourWayCoin = Qubit[2];
         //preparing the state of the coin
+        //once we start applying X gates, the coin will flip-flop between "heads" and "tails"
+        //this will change as it gets entangled with the board
         ApplyToEach(H, fourWayCoin);
         ApplyToEach(S, fourWayCoin);
 
-        //walk around aimlessly for a while and call it a useful scientific experiment
         for i in 1..iterations{
             Mutation(fourWayCoin, stateX, stateY);
         }
