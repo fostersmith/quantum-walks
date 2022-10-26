@@ -49,8 +49,8 @@ namespace DummyQS{
         //we need two qubits for the coin because it needs to decide between four choices.
         use fourWayCoin = Qubit[2];
         //preparing the state of the coin
-        //once we start applying X gates, the coin will flip-flop between "heads" and "tails"
-        //this will change as it gets entangled with the board
+        //once we start applying X gates, the coin will flip between "heads" and "tails"
+        //this pattern will change as it gets entangled with the board
         ApplyToEach(H, fourWayCoin);
         ApplyToEach(S, fourWayCoin);
 
